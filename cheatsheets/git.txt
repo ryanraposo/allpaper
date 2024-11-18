@@ -1,0 +1,31 @@
+# Git Cheatsheet
+
+## Configuration
+- Set username: `git config --global user.name "Your Name"`
+- Set email: `git config --global user.email "you@example.com"`
+- View config: `git config --list`
+
+## Basic Commands
+- Initialize repo: `git init`
+- Clone repo: `git clone <repo-url>`
+- Stage changes: `git add <file>` or `git add .`
+- Commit changes: `git commit -m "commit message"`
+- Push to remote: `git push origin <branch-name>`
+- Pull from remote: `git pull origin <branch-name>`
+
+## Branching
+- Create branch: `git branch <branch-name>`
+- Switch branches: `git checkout <branch-name>`
+- Create and switch: `git checkout -b <branch-name>`
+- Merge branch: `git merge <branch-name>`
+- Delete branch: `git branch -d <branch-name>`
+
+## Undoing Changes
+- Unstage file: `git reset <file>`
+- Undo last commit (keep changes): `git reset --soft HEAD~1`
+- Undo last commit (delete changes): `git reset --hard HEAD~1`
+
+## Logs and Diffs
+- View commit history: `git log`
+- View simplified history: `git log --oneline`
+- Show changes: `git diff`

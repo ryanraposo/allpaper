@@ -1,0 +1,26 @@
+# Conda Cheatsheet
+
+## Basic Environment Management
+- Create environment: `conda create -n <env-name> python=3.8`
+- Activate environment: `conda activate <env-name>`
+- Deactivate environment: `conda deactivate`
+- List environments: `conda env list`
+- Remove environment: `conda remove -n <env-name> --all`
+
+## Package Management
+- Install package: `conda install <package>`
+- Install from specific channel: `conda install -c <channel> <package>`
+- Update package: `conda update <package>`
+- Remove package: `conda remove <package>`
+- List packages: `conda list`
+
+## Exporting and Importing Environments
+- Export environment: `conda env export > environment.yml`
+- Create environment from file: `conda env create -f environment.yml`
+
+## Channels
+- Add channel: `conda config --add channels <channel-name>`
+- View configured channels: `conda config --show channels`
+
+## Searching Packages
+- Search for a package: `conda search <package-name>`

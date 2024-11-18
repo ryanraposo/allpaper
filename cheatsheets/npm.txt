@@ -1,0 +1,26 @@
+# npm Scripts Cheatsheet
+
+## Run Scripts
+- `npm run <script>` - Run a script defined in `package.json`
+- `npm start` - Run the `start` script
+- `npm test` - Run the `test` script
+- `npm stop` - Run the `stop` script
+
+## Script Hooks
+- `pre<name>` - Run before the `<name>` script (e.g., `prebuild` runs before `build`)
+- `post<name>` - Run after the `<name>` script (e.g., `posttest` runs after `test`)
+
+## Common Scripts
+- `"start"`: Start the application
+- `"build"`: Compile code (e.g., `webpack`)
+- `"test"`: Run tests (e.g., `jest`)
+- `"lint"`: Run linter (e.g., `eslint .`)
+
+## Run Shell Commands
+- `"script-name": "command"` - Define and run shell commands, e.g., `"lint": "eslint src/**"`
+
+## Pass Arguments
+- `npm run build -- --watch` - Pass arguments to a script (`--watch` here)
+
+## Concurrent Scripts
+- `"scripts": { "start": "npm run build & npm run serve" }` - Run multiple scripts in parallel
