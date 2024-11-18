@@ -1,5 +1,7 @@
 # Allpaper
 
+> Imperfect but awesome. Happy contributing!
+
 **Allpaper** is a Python-based tool for creating a collage of cheatsheets and using it as your desktop wallpaper. It's a perfect solution for developers and productivity enthusiasts who want quick access to frequently used commands, all displayed beautifully on their screen background.
 
 ### Features
@@ -19,7 +21,7 @@
 First, make sure you have Python installed, and then install the dependencies:
 
 ```sh
-pip install Pillow markdown2 imgkit
+pip install -r requirements.txt
 ```
 
 You also need to install `wkhtmltopdf` for rendering HTML:
