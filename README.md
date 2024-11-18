@@ -2,13 +2,12 @@
 
 > Imperfect but awesome. Happy contributing!
 
-**Allpaper** is a Python-based tool for creating a collage of cheatsheets and using it as your desktop wallpaper. It's a perfect solution for developers and productivity enthusiasts who want quick access to frequently used commands, all displayed beautifully on their screen background.
+**Allpaper** is a Python-based tool for creating a collage of cheatsheets as you write them--in place of your desktop wallpaper!
 
 ### Features
 - Create a collage of up to **4 cheatsheets** on a 2x2 grid layout for readability.
 - Convert Markdown cheatsheets into beautiful rendered images using **imgkit** and **markdown2**.
 - Save the generated wallpaper in the `wallpapers` folder of the project.
-- Update your desktop wallpaper automatically (currently configured for **GNOME**).
 
 ### Requirements
 - Python 3.x
