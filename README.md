@@ -1,4 +1,4 @@
-# Allpaper
+# allpaper
 
 > Imperfect but awesome. Happy contributing!
 
